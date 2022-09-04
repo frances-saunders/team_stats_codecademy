@@ -1,3 +1,6 @@
+//This script fulfills the project reqs for "Team Stats" in Codecademy
+
+//sets fantasy football team
 const team = {
   _players: [
     {firstName: 'Ben', lastName: 'Roethlisberger', age: 40},
@@ -5,6 +8,7 @@ const team = {
     {firstName: 'Jacoby', lastName: 'Brissett', age: 29},
   ],
 
+  //sets games to play and results
   _games: [
     {opponent: 'Jets', teamPoints: 21, opponentPoints: 3},
     {opponent: 'Dolphins', teamPoints: 26, opponentPoints: 16},
